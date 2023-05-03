@@ -1,0 +1,254 @@
+body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      /* Header */
+      header {
+        background-color: #f7f7f7;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      /* Navigation */
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      nav li:last-child {
+        margin-right: 0;
+      }
+
+      nav a {
+        font-size: 100%;
+        font-weight: bold;
+        padding: 10px;
+        color: #fff;
+      }
+
+      nav a:hover {
+        color: #ff9900;
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      /* Banner */
+      .banner {
+        background-image: url("https://lh3.googleusercontent.com/breZPb85W6jc2x_1yaFZXl60fy5QEE_3cekrw4y4X_fZaUVAE2VIfZxRUCV4AoTmweE-aYNEqeJzNPX9QF08MPsa5gQFS3qBUNzDhxR6Tw");
+        background-size: cover;
+        background-position: center center;
+        height: 800px;
+        text-align: center; 
+      }
+.banner1 {
+        background-image: url("https://lh3.googleusercontent.com/XBIGT1_ImXgT4RCYpdiHYGPOxQrV_gcPSFLd7iMECZvDyEPST41-3osMbIiJFhIeHiOYcwJvoVQtvAxgfemoQNKTFAnx6qKqffaNp32c");
+        background-size: cover;
+        background-position: center center;
+        height: 350px;
+        text-align: center; 
+      }
+.banner2 {
+        background-image: url("https://lh3.googleusercontent.com/ovi6A2D1b-3ivKvKWsuajvt9fQ4Y7KmXlya2StWTfyYdX4P9hvXHK_LdtkPW7RkGJP1ptknOOcPG39BsBXrofFkZH4Qch-K__5NlH5c");
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        text-align: center; 
+      }
+
+      /* Main content */
+      main {
+        padding: 20px;
+      }
+
+      main h2 {
+        font-size: 24px;
+        margin-top: 0;
+      }
+
+      .product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .product {
+        margin: 20px;
+        text-align: center;
+        width: 250px;
+      }
+
+      .product img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .product h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+
+      .product p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+
+      .product .price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #ff9900;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: left;
+      }
+
+      footer p {
+        margin: 0;
+      }
+/* Стили для раздела "О нас" */
+
+#about-us {
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+
+#about-us h2  #delivery h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+#about-us p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Стили для ссылки на раздел "О нас" */
+
+#nav-about a , #delivery a{
+  color: #fff;
+  background-color: #b65e28;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#nav-about a:hover , #delivery a:hover{
+  background-color: #a55124;
+}
+
+      
+/* Общий стиль для форм */
+#forms form{
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Стиль для заголовка форм */
+#forms form h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Стиль для подзаголовков форм */
+#forms form h3 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Стиль для полей форм */
+#forms form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Стиль для кнопок форм */
+#forms form input[type="submit"],
+form input[type="reset"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Стиль для кнопки "Забыли пароль" */
+#forms form .forgot-password {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 16px;
+  color: #4CAF50;
+  cursor: pointer;
+}
+
+/* Стиль для блока с ссылкой на регистрацию */
+#forms .register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#registration-form, #login-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10%; /* Отступ между формами */
+}
+
+     
