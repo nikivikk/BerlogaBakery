@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
   }
-
+  
   a {
     text-decoration: none;
     color: #333;
@@ -17,8 +17,20 @@ body {
     padding: 20px;
     text-align: center;
   }
-
+logo{
+    position: relative;
+}
+d{
+    position: absolute;
+    color: white;
+    top: 35px;
+    left: 45%;
+    margin: 0;
+    font-size: 45px;
+    font-family:cursive;
+}
   header h1 {
+    
     margin: 0;
     font-size: 36px;
   }
@@ -61,24 +73,24 @@ body {
 
   /* Banner */
   .banner {
-    background-image: url("https://lh3.googleusercontent.com/breZPb85W6jc2x_1yaFZXl60fy5QEE_3cekrw4y4X_fZaUVAE2VIfZxRUCV4AoTmweE-aYNEqeJzNPX9QF08MPsa5gQFS3qBUNzDhxR6Tw");
+    background-image: url("images/фон.jpg");
     background-size: cover;
     background-position: center center;
-    height: 800px;
+    height: 600px;
     text-align: center; 
   }
 .banner1 {
-    background-image: url("https://lh3.googleusercontent.com/XBIGT1_ImXgT4RCYpdiHYGPOxQrV_gcPSFLd7iMECZvDyEPST41-3osMbIiJFhIeHiOYcwJvoVQtvAxgfemoQNKTFAnx6qKqffaNp32c");
+    background-image: url("images/фон.jpg");
     background-size: cover;
     background-position: center center;
     height: 350px;
     text-align: center; 
   }
 .banner2 {
-    background-image: url("https://lh3.googleusercontent.com/ovi6A2D1b-3ivKvKWsuajvt9fQ4Y7KmXlya2StWTfyYdX4P9hvXHK_LdtkPW7RkGJP1ptknOOcPG39BsBXrofFkZH4Qch-K__5NlH5c");
+    background-image: url("images/фон.jpg");
     background-size: cover;
     background-position: center center;
-    height: 300px;
+    height: 400px;
     text-align: center; 
   }
 
