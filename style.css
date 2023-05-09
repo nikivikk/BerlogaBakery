@@ -1,196 +1,178 @@
-header {
-  background-color: #f7f7f7;
-  text-align: center;
-}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
-header h1 {
-  margin: 0;
-  font-size: 36px;
-}
+  a {
+    text-decoration: none;
+    color: #333;
+  }
 
-/* Navigation */
-nav {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
+  /* Header */
+  header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
+  /* Navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
 
-nav li:last-child {
-  margin-right: 0;
-}
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-main{
-  display: flex;
-  justify-content: center;
- align-items: center;
-  height: 100vh;
-}
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
 
-body2{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-}
-form {
-float: left;
-display: form;
-width: 300px;
-border: 3px solid rgb(227, 205, 125);
-margin: 50px;
-}
+  nav li:last-child {
+    margin-right: 0;
+  }
 
-form2 {
-float: right;
-display: form2;
-width: 300px;
-border: 3px solid rgb(227, 205, 125);
-margin: 0px;
-}
-.form{
-width: 470px;
-padding: 32px;
-border-radius: 10px;
-box-shadow: 0 4px 16px #ccc;
-font-family: sans-serif;
-letter-spacing: 1px;
-}
-.form_input,
-.form_button{
-font-family: sans-serif;
-letter-spacing: 1px;
-font-size: 16px;
-}
-.form_title{
+  nav a {
+    font-size: 100%;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+  }
+
+  nav a:hover {
+    color: #ff9900;
+    background-color: #555;
+    border-radius: 5px;
+  }
+
+  /* Banner */
+  .banner {
+    background-image: url("https://lh3.googleusercontent.com/breZPb85W6jc2x_1yaFZXl60fy5QEE_3cekrw4y4X_fZaUVAE2VIfZxRUCV4AoTmweE-aYNEqeJzNPX9QF08MPsa5gQFS3qBUNzDhxR6Tw");
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    text-align: center; 
+  }
+.banner1 {
+    background-image: url("https://lh3.googleusercontent.com/XBIGT1_ImXgT4RCYpdiHYGPOxQrV_gcPSFLd7iMECZvDyEPST41-3osMbIiJFhIeHiOYcwJvoVQtvAxgfemoQNKTFAnx6qKqffaNp32c");
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    text-align: center; 
+  }
+.banner2 {
+    background-image: url("https://lh3.googleusercontent.com/ovi6A2D1b-3ivKvKWsuajvt9fQ4Y7KmXlya2StWTfyYdX4P9hvXHK_LdtkPW7RkGJP1ptknOOcPG39BsBXrofFkZH4Qch-K__5NlH5c");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    text-align: center; 
+  }
+
+  /* Main content */
+  main {
+    padding: 20px;
+  }
+
+  main h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product {
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+  }
+
+  .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .product h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .product p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .product .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff9900;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+
+  footer p {
+    margin: 0;
+  }
+/* Стили для раздела "О нас" */
+
+#about-us {
+background-color: #f8f8f8;
+padding: 50px;
 text-align: center;
-margin: 0 0 32px 0;
-font-weight: normal;
-}
-.form_group{
-position: relative;
-margin-bottom: 32px;
-}
-.form_label{
-
-position: absolute;
-top: 0;
-z-index: -1;
-color: black;
 }
 
-.form_input{
-width: 100%;
-padding: 0 10px  0 0;
-border: none;
-border-bottom: 1px solid #ccc;
-background-color: transparent;
-outline: none;
-transition: 0.3s;
+#about-us h2  #delivery h2{
+font-size: 2em;
+margin-bottom: 20px;
+color: #444;
 }
-.form_input:focus{
-border-bottom: 1px solid #695b30;
+
+#about-us p {
+font-size: 1.2em;
+line-height: 1.5;
+margin-bottom: 20px;
+color: #555;
 }
-.form_button{
-padding:  10px,20px;
-border: none;
-border-radius: 5px;
+
+/* Стили для ссылки на раздел "О нас" */
+
+#nav-about a , #delivery a{
 color: #fff;
-background-color: #695b30;
-outline: none;
-cursor: pointer;
-}
-.form_button:focus,
-.form_button:hover{
-background-color: #695b30;
-}
-.form_input:focus ~ .form_label,
-.form_input:not(:placeholder-shown) ~ .form_label{
-top: -18px;
-font-size: 12px;
-color: black;
-}
-
-
-.form2{
-width: 420px;
-padding: 32px;
-border-radius: 10px;
-box-shadow: 0 4px 16px #ccc;
-font-family: sans-serif;
-letter-spacing: 1px;
-}
-.form2_input,
-.form2_button{
-font-family: sans-serif;
-letter-spacing: 1px;
-font-size: 16px;
-}
-.form2_title{
-text-align: center;
-margin: 0 0 32px 0;
-font-weight: normal;
-}
-.form2_group{
-position: relative;
-margin-bottom: 32px;
-}
-.form2_label{
-position: absolute;
-top: 0;
-z-index: -1;
-color: black;
-}
-
-.form2_input{
-width: 100%;
-padding: 0 10px  0 0;
-border: none;
-border-bottom: 1px solid #ccc;
-background-color: transparent;
-outline: none;
-transition: 0.3s;
-}
-.form2_input:focus{
-border-bottom: 1px solid #695b30;
-}
-.form2_button{
-padding:  10px,20px;
-border: none;
+background-color: #b65e28;
+padding: 10px 20px;
 border-radius: 5px;
-color: #fff;
-background-color: #695b30;
-outline: none;
-cursor: pointer;
-}
-.form2_button:focus,
-.form2_button:hover{
-background-color: #695b30;
-}
-.form2_input:focus ~ .form2_label,
-.form2_input:not(:placeholder-shown) ~ .form2_label{
-top: -18px;
-font-size: 12px;
-color: black;
-}
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: left;
+text-decoration: none;
+font-size: 1.2em;
+font-weight: bold;
+transition: background-color 0.3s ease;
 }
 
-footer p {
-  margin: 0;
+#nav-about a:hover , #delivery a:hover{
+background-color: #a55124;
 }
